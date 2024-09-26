@@ -40,6 +40,7 @@ img {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
 }
 a {
   color: inherit;
@@ -96,6 +97,7 @@ body {
 .menu {
   display: flex;
   column-gap: 40px;
+  gap: 40px;
 }
 
 .our-contacts-info {
@@ -268,6 +270,8 @@ body {
 }
 
 .section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
   row-gap: 48px;
 }
 
@@ -311,6 +315,7 @@ body {
 .portfolio-ul {
   display: flex;
   column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 
