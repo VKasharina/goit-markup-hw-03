@@ -78,9 +78,14 @@ body {
 
 /* ======= HEADER STYLES ====== */
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .page-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menu {
@@ -90,7 +95,8 @@ body {
 
 .our-contacts-info {
   display: flex;
-  column-gap: 41px;
+  column-gap: 40px;
+  align-items: center;
 }
 
 .menu-item {
@@ -99,6 +105,9 @@ body {
 }
 
 .menu-link {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 23px;
   font-weight: 500;
   color: #2e2f42;
 }
@@ -124,6 +133,11 @@ body {
 
 /* ======= HERO STYLES ====== */
 
+.section-paddings {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .hero-section {
   background-color: #2e2f42;
 }
@@ -134,6 +148,10 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .page-button {
@@ -143,9 +161,21 @@ body {
   line-height: 1.5;
   color: #fff;
 }
+
 .page-button:hover,
 .page-button:focus {
   background-color: #404bbf;
+}
+
+.section-description {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 24px;
+}
+
+.section-description-list {
+  width: calc((100% - 72px) / 4);
+  column-gap: 24px;
 }
 
 .description-title {
@@ -154,12 +184,15 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.2;
   color: #2e2f42;
+  display: flex;
+  margin-bottom: 8px;
 }
 
 .description-text {
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .our-team {
@@ -175,9 +208,21 @@ body {
   color: #2e2f42;
 }
 
+.our-team-list {
+  display: flex;
+  column-gap: 24px;
+}
+
 .our-team-background {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  padding-bottom: 32px;
 }
+
+.our-team-list-img {
+  margin-bottom: 32px;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -201,6 +246,9 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 72px;
 }
 
 .portfolio-subtitle {
@@ -209,13 +257,32 @@ body {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  display: flex;
+  margin: 32px 226px 8px 16px;
 }
 
 .portfolio-description {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
+
+.portfolio-ul {
+  display: flex;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-li {
+  width: calc((100% - 48px) / 3);
+  padding-bottom: 32px;
+  max-width: 360px;
+  border-bottom: 1px;
+}
+
 /* ======= /HERO STYLES ====== */
 
 /* ======= FOOTER STYLES ====== */
