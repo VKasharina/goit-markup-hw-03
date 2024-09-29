@@ -64,6 +64,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .page-logo:hover,
@@ -80,6 +81,11 @@ body {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .section {
@@ -114,9 +120,10 @@ body {
 }
 
 .menu-item {
-  display: flex;
+  display: block;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .menu-link {
@@ -133,6 +140,7 @@ body {
 
 .our-contacts {
   font-style: normal;
+  margin-left: auto;
 }
 .contacts {
   letter-spacing: 0.02em;
